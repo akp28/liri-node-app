@@ -10,7 +10,13 @@ var args1 = process.argv[2];
 var args2 = process.argv.slice(3).join(" ");
 
     if (args1 === "movie-this"){
-        var movieName = args2;
+        var movieName = "";
+        if (args2 === ""){
+            movieName = "Mr Nobody";
+            // console.log("if songName: " + songName);
+        }else {
+            movieName += args2;
+        }
         funcMovie(movieName);
     }else if(args1 === "spotify-this-song"){
         var songName= "";
