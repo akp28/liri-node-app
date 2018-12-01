@@ -10,7 +10,7 @@ This parameter takes the song title entered and runs it through the Spotify API.
 Song Title
 Artist
 Album
-![Spotify Preview Link](images/Spotify.gif)
+![alt text](images/Spotify.gif "Spotify Preview Link")
 
 movie-this "movie title"
 
@@ -24,7 +24,7 @@ Countries Where Movie was Produced
 Language
 Plot
 Actors
-![Movie-this Preview Link](images/movie-this.gif)
+![alt text](images/movie-this.gif "Movie-this Preview Link")
 
 concert-this "artist/band name"
 
@@ -33,11 +33,11 @@ This parameter takes the band name entered and runs it through the bands in town
 Date of the Concert
 Venue Name
 Venue Location
-![concert Preview Link](images/concert-this.png)
+![alt text](images/concert-this.png "concert Preview Link")
 
 do-what-it-says "random text"
 
 This parameter takes the information in the random.txt file and returns the info based on random text:
 random text sample
 concert-this,tycho
-![do what it says](images/do-what-it-says.png)
+![alt text](images/do-what-it-says.png "do what it says")
