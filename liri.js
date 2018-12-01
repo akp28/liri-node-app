@@ -20,10 +20,10 @@ var args2 = process.argv.slice(3).join(" ");
         funcMovie(movieName);
     }else if(args1 === "spotify-this-song"){
         var songName= "";
-        console.log("args2" + args2)
+        // console.log("args2" + args2)
         if (args2 === ""){
             songName = "The Sign";
-            console.log("if songName: " + songName);
+            // console.log("if songName: " + songName);
         }else {
             songName += args2;
         }
@@ -43,7 +43,7 @@ var args2 = process.argv.slice(3).join(" ");
             // console.log(data);
             // Then split it by commas (to make it more readable)
             var dataArr = data.split(",");
-            console.log("dataArr: " + dataArr);
+            // console.log("dataArr: " + dataArr);
             // We will then re-display the content as an array for later use
             if (dataArr[0] === "spotify-this-song"){
                 funcSpotify(dataArr[1]);
